@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("../image/Sunset-at-Kovalam-Beach.jpg");
+    background-size: cover;
+
+    
+    
+}
+.navbar{
+    background-color: rgb(6, 97, 6);
+        
+}
+.navbar a{
+    color: ivory;
+    border:1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 6px;
+    padding: 3px;
+
+}
+.navbar a:hover{
+    background-color: rgb(18, 218, 94);
+    transition: 0.5s ease-in;
+    color: black;
+}
+#footer1{
+    background: #0c3001;
+    margin: 5px 0  5px;
+    color: ivory;
+    max-height: 20%;
+}
