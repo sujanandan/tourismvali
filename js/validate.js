@@ -116,12 +116,12 @@ function password1(val)
         }
         else if(pwd.length<10){
           mtrElem.value=20;
-          document.getElementById("p1").innerHTML = "Weak";
+          document.getElementById("p1").innerHTML = "Poor";
           document.getElementById("p1").style.color = "red";
         }
         else{
           mtrElem.value=50;
-          document.getElementById("p1").innerHTML = "Normal";
+          document.getElementById("p1").innerHTML = "Medium";
           document.getElementById("p1").style.color = "yellow";
         } 
         // document.getElementById("buttonstat").disabled = false; 
