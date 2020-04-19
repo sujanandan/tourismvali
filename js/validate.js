@@ -17,7 +17,7 @@ function validatephone()
     return true;
   }
   else{
-    alert("Please provide in correct format");
+    alert("Please provide in XXXXXXXXXX/XXX XXX XXXX/XXX.XXX.XXXX/XXX-XXX-XXX format");
     document.getElementById('phno').value="";
      document.myform.phno.focus();
   return false;
@@ -104,7 +104,7 @@ function validate1()
 function password1(val)
 { let p1=document.getElementById("p1"); 
   let mtrElem = document.getElementById("myMeter"); 
-  let regexp1=/^((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,20})$/;
+  let regexp1=/^((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20})$/;
   let pwd=document.getElementById('pwd').value;
   
   if(regexp1.test(pwd)){
@@ -129,7 +129,7 @@ function password1(val)
       return true;  
   }
   else{
-      alert("Password should contain atleast a Number Upper and lowercase letter and special characters");
+      alert("Password should contain atleast a Number,Upper and lowercase letter");
       console.log(pwd);
       document.getElementById('pwd').value="";
       document.myform.pwd.focus();
